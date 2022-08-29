@@ -1,0 +1,227 @@
+/* NAVIGATION BAR */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #6666ff;
+  overflow: hidden;
+  min-height: 20px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: poppins;
+  width: 200px;
+  max-width:100%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #6666ff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #00cc99;
+}
+
+/* Style header card for sections */
+.headcard {
+	width: 60%;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px 30px 5px 30px;
+	font-size:25px; 
+	font-family: poppins;
+	text-align:center;
+	vertical-align: bottom;
+	color: #330033;
+	font-weight: bold;
+}
+
+/* Style main card for sections */
+.card {
+  padding: 20px;
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+/* Cell style for icon in table */	
+.a {
+	width: 250px;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	vertical-align: center;
+	horizontal-align: center;
+	border-radius: 10px 10px 0px 0px;
+	padding: 3px;
+}
+
+
+/* Cell style for text in table */	
+.b {
+	width: 250px;
+	max-width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: poppins;
+	color: rgb(0,117,255);
+	height: auto;
+	margin-bottom: 20px;
+	border-radius: 0px 0px 10px 10px;
+	background-image: url("y-so-serious.png");
+	padding: 3px;
+}
+
+/* Cell style for text in table */	
+.b2 {
+	width: 600px;
+	max-width: 100%;
+	text-align: left;
+	font-size: 16px;
+	font-family: poppins;
+	color: #330033;
+	height: auto;
+	margin-bottom: 20px;
+	border-radius: 0px 0px 10px 10px;
+	background-image: url("y-so-serious.png");
+	padding: 3px;
+}
+
+/* Cell style for gap in table */	
+.c {
+	width: 20px;
+	min-width: 2px;
+	min-height: 2px;
+	height: 20px;
+}
+
+/* Cell styling for icon of github link table */
+.d {
+	max-width: 100%;
+	background-color: white;
+	height: auto;
+	text-align: center;
+	vertical-align: center;
+	border-radius: 10px 10px 0px 0px;
+	border-color: white
+	padding: 3px;
+}
+
+/* Cell styling for link of github link table and completion certificate */
+.e {
+	max-width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	height: auto;
+	margin-bottom: 20px;
+	border-radius: 0px 0px 10px 10px;
+	border-color: white;
+	padding: 5px;
+}
+
+/* Cell style for image in table (Experience/Projects) */	
+.expimage {
+	max-width:100%; 
+	width: 200px;
+	height:auto; 
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	vertical-align: center;
+	padding: 5px;
+}
+
+/* Cell style for heading in table (Experience/Projects) */
+.expheader {
+	font-size:18px; 
+	height:20px;
+	text-align: center;
+	font-family: poppins;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-color: black;
+	color: #330033;
+	background-image: url("y-so-serious.png");
+}
+
+/* Cell style for left subheading in table (Experience/Projects) */
+.expsubhead1 {
+	font-size:16px;
+	font-family: poppins;
+	text-align:center;
+	max-width:100%;	
+	height:17px;
+	font-style: italic;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	border-color: black;
+	color: #330033;
+}
+
+/* Cell style for right subheading in table (Experience/Projects) */
+.expsubhead2 {
+	text-align: right; 
+	font-style: italic;
+
+	padding-right: 5px;
+	padding-bottom: 5px;
+	border-color: black;
+	color: #330033;
+	max-width: 100%;
+}
+
+/* Cell style for main summary in table (Experience/Projects) */
+.expmain {
+	font-size:14px;
+	text-align: center;
+	font-family: poppins;
+	border-radius: 0px 0px 10px 10px;
+	padding: 5px;
+	background-color: white;
+	max-width: 100%;
+	height: auto;
+	width: 500px;
+	color: #330033
+}
+
+/* Table style */
+.maintable {
+	max-width:100%;
+	margin:auto;
+	align:center;
+}
+
+.aboutimage {
+	max-width:100%; 
+	align:center;
+}
+
+.abouttext {
+	font-size:14px; 
+	font-family:poppins; 
+	text-align:justify; 
+	text-justify:inter-word;
+}
+
+.aboutlinktext {
+	font-family:poppins; 
+	text-align:center; 
+	color:#330033; 
+	max-width:100%;
+}
